@@ -1,0 +1,22 @@
+img {
+    width: 200px;
+}
+
+body{
+     
+}
+
+.main-container{
+    background: teal;
+}
+
+.jumbotron{
+    height: 100%;
+    background: black;
+}
+
+.btn{
+    background: whitesmoke;
+    width: 90px;
+    
+}

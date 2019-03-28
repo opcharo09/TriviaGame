@@ -3,36 +3,43 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> name trivia quiz</title>
+    <title> World cup trivia quiz</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
     
 </head>
 <body>
-    <div class="container">
+        <div class="jumbotron">
+
+    <audio>
+        <source src="">
+    </audio>
+    <div class="main-container">
          <div id="container">
-            <h1>name trivia quiz</h1>
-            <img src="">
+             <div id="tgame">
+            <h1>World cup trivia quiz</h1>
+            <img src="./assets/images/fauzan-saari-687564-unsplash.jpg">
          </div>
         
-          <div id="start">Click here to start</div>
-      
+          <div id="startgame">Click here to start</div>
+      <p id="timeremaining" class="ltime"> <span id="timer"></span></p>
+      <p id="question" class="ltime"></p>
+    
+    <div id="score"></div>
+</div>
       <div id="question">
      <Div id= "choises">
-      <div id="option-a"></div>
-      <div id="option-b"></div>
-      <div id="option-c"></div>
-      <div id="option-d"></div>
-      <div id="answer"></div>
-        <div id="text"><p></p></div>
+     <div id="text"><p></p></div>
         <div class="center">
             <button class="btn" id="start">Start</button>
         </Div>
      </div>
+    </div>
     </div>
     <script src="./assets/javascript/app.js"></script>
 </body>
