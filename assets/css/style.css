@@ -1,22 +1,107 @@
-img {
-    width: 200px;
-}
-
-body{
-     
-}
-
-.main-container{
-    background: teal;
-}
-
-.jumbotron{
+/* *{
+    border: solid white 1px;
+} */
+html, body{
     height: 100%;
-    background: black;
+    background-color: black;
 }
 
-.btn{
-    background: whitesmoke;
-    width: 90px;
-    
+body {
+    text-align: center;
 }
+
+img {
+    height: 500px;
+}
+
+h1{
+  color: beige;
+  font-family: Geo, sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+#wrapper {
+    width: 960px;
+    height: 90%;
+    box-sizing: border-box;
+    margin: 2.5% auto;
+    background-image: url(../images/fauzan-saari-687564-unsplash.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    border:  3px white solid;
+    
+  }
+
+  #start
+   {
+    display: block;
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    font-size: 50px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    color:beige;
+    font-weight: bold;
+  }
+
+  .answer-button {
+      background: beige;
+    display: block;
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    font-size: 42px;
+    cursor: pointer;
+    /* background: transparent; */
+    border: 0;
+    color: black;
+    font-weight: bold;
+  }
+  
+
+  h2 {
+      background: whitesmoke;
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: black;
+  }
+  
+  h3 {
+      background: beige;
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+  }
+#start:hover{
+    background:black;
+    border: 2px solid whitesmoke;
+}
+
+
+  .answer-button:hover {
+      color: beige;
+    background:black;
+    border: 2px solid whitesmoke;
+  }
+  #start-over {
+    display: block;
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    font-size: 42px;
+    cursor: pointer;
+    background: black;
+    border: 0;
+    color:beige;
+    font-weight: bold;
+  }
+  #start-over:hover{
+    background:black;
+    border: 2px solid whitesmoke;
+  }
+
+ 
